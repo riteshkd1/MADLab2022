@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 public class MainActivity extends AppCompatActivity {
     private int mCount = 0;
     private TextView mShowCount;
@@ -18,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mShowCount = (TextView) findViewById(R.id.show_count);
     }
-
     public void showToast(View view) {
         Toast toast = Toast.makeText(this, R.string.toast_message,
                 Toast.LENGTH_SHORT);
@@ -30,5 +28,4 @@ public class MainActivity extends AppCompatActivity {
         if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
     }
-
 }
