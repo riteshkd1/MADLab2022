@@ -10,8 +10,7 @@
         android:id="@+id/article_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_500"
-        android:padding="4sp"
+        android:background="@color/teal_700"
         android:text="@string/article_title"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:textColor="@android:color/white"
@@ -40,14 +39,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink="web"
-                android:lineSpacingExtra="4sp"
+                android:lineSpacingExtra="8sp"
                 android:text="@string/article_text" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/comment_button"
-                android:text="@string/add_comment"/>
         </LinearLayout>
 
     </ScrollView>
