@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/WINDOWS10/AndroidStudioProjects/MADLab20222/app/src/main/res/layout/activity_fourth.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/WINDOWS10/AndroidStudioProjects/MADLab20222/app/src/main/res/layout/activity_hello_toast.xml" value="0.1" />
         <entry key="..\:/Users/WINDOWS10/AndroidStudioProjects/MADLab20222/app/src/main/res/layout/activity_main.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/WINDOWS10/AndroidStudioProjects/MADLab20222/app/src/main/res/layout/activity_third.xml" value="0.12708333333333333" />
       </map>
     </option>
   </component>
